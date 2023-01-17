@@ -9,7 +9,7 @@
 #  Script de NiPeGun para instalar y configurar QEMU Guest Agent en PFSense
 #
 #  Ejecución remota:
-#  curl -s x | bash
+#  curl -s https://raw.githubusercontent.com/nipegun/pf-scripts/main/SoftInst/QemuGuestAgent-InstalarYConfigurar.sh | sh
 # ----------
 echo ""
 echo "  Actualizando la lista de paquetes..."
