@@ -36,7 +36,19 @@ service qemu-guest-agent start
 echo ""
 echo "  Ejecución del script, finalizada."
 echo ""
-
-# System: Settings / Advanced: Tunables -> Add
-# Tunable: virtio_console_load, Value: YES
-
+echo "  Ahora deberás hacer algunos cambios en la interfaz gráfica:"
+echo ""
+echo "  - Ve al gestor de paquetes e instala el paquete Shellcmd."
+echo '  - Ve al Menú "Services" >> "Shellcmd" y dale al botón "+Add".'
+echo "    Rellena con los siguientes datos:"
+echo "    Command: service-quemu-guest-agent start"
+echo "    Shellcmdtype: earlyshellcmd"
+echo "    ...y salva los cambios."
+echo '  - Ve al Menú "System" >> "Advanced" >> Pestaña "System Tunables" y dale al botón "+New"'
+echo "    Rellena con los siguientes datos:"
+echo "      Tunable: virtio_console_load"
+echo "      Value: YES"
+echo ""
+echo "   Salva y aplica los cambios."
+echo "   Reinicia pfSense"
+echo ""
