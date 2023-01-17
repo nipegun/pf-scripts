@@ -11,6 +11,7 @@
 #  Ejecución remota:
 #  curl -s https://raw.githubusercontent.com/nipegun/pf-scripts/main/SoftInst/QemuGuestAgent-InstalarYConfigurar.sh | sh
 # ----------
+
 echo ""
 echo "  Actualizando la lista de paquetes..."
 echo ""
