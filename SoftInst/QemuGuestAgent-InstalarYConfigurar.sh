@@ -41,7 +41,7 @@ echo ""
 echo "  - Ve al gestor de paquetes e instala el paquete Shellcmd."
 echo '  - Ve al Menú "Services" >> "Shellcmd" y dale al botón "+Add".'
 echo "    Rellena con los siguientes datos:"
-echo "    Command: service-quemu-guest-agent start"
+echo "    Command: service quemu-guest-agent start"
 echo "    Shellcmdtype: earlyshellcmd"
 echo "    ...y salva los cambios."
 echo '  - Ve al Menú "System" >> "Advanced" >> Pestaña "System Tunables" y dale al botón "+New"'
