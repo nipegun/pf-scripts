@@ -6,10 +6,10 @@
 # No tienes que aceptar ningún tipo de términos de uso o licencia para utilizarlo o modificarlo porque va sin CopyLeft.
 
 # ----------
-#  Script de NiPeGun para instalar y configurar QEMU Guest Agent en PFSense
+# Script de NiPeGun para instalar y configurar QEMU Guest Agent en PFSense
 #
-#  Ejecución remota:
-#  curl -s https://raw.githubusercontent.com/nipegun/pf-scripts/main/SoftInst/QemuGuestAgent-InstalarYConfigurar.sh | sh
+# Ejecución remota:
+#   curl -sL https://raw.githubusercontent.com/nipegun/pf-scripts/main/SoftInst/QemuGuestAgent-InstalarYConfigurar.sh | sh
 # ----------
 
 echo ""
